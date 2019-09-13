@@ -31,7 +31,7 @@ Note that `K` is fixed for a test case. `10` and `1` are constants. The only var
 
 Now, recall the Pigeonhole principle. According to it, I have `K` slots of remainders, from `[0,K-1]`. But if I get `0`, the question ends there and I have already found an answer! 
 
-Hence, after considering at most `K` numbers, we will either get a `0`, or a remainder `X` which is getting repeated. This means that, we can consider only first `K` numbers made by the operation, at most `K-1` of them can give a distinct remainder. If we get a repeated remainder or `0`, then we are actually done!
+Hence, after considering at most `K` numbers, we will either get a `0`, or a remainder `X` which is getting repeated. This means that, we can consider only first `K` numbers made by the operation, at most `K-1` of them can give a distinct remainder such that none of the remainder is `0`. If we get a repeated remainder or `0`, then we are actually done!
 
 But the question is, how and why? What is the significance of this repeated remainder?
 
