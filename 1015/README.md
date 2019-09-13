@@ -25,7 +25,7 @@ Hence, lets say our current remainder is `X`. Since the next remainder is `Y`, t
 
 `Y=(X*10+1)%K`
 
-Note that `K` is fixed for a test case. `10` and `1` are constants. The only variable here is $X$. And the above equation directly interprets to, that, if we get a remainder of `X`, then the next remainder will always be `Y` since there is only `1` operation and as wel said, `K`, `10` and `1` are constants, fixed for each test case.
+Note that `K` is fixed for a test case. `10` and `1` are constants. The only variable here is `X`. And the above equation directly interprets to, that, if we get a remainder of `X`, then the next remainder will always be `Y` since there is only `1` operation and as we said, `K`, `10` and `1` are constants, fixed for each test case.
 
 ### 2. Integrate above Observation wiht Pigeonhole:
 
