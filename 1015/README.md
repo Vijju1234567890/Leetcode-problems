@@ -35,7 +35,7 @@ Hence, after considering at most `K` numbers, we will either get a `0`, or a rem
 
 But the question is, how and why? What is the significance of this repeated remainder?
 
-Lets say that our repeated remainder is `X`, the remainder after `X` is `Y`, after `Y` is `Z`etc. Lets denote is by `[X,Y,Z,...]`. I have previously arrived at `X`, and now I again arrive at `X`. I claim that since I did not find a remainder of `0` earlier, no solution is possible (because if we did find a remainder of `0`, we would have terminated looking for more numbers and given answer immediately).
+Lets say that our repeated remainder is `X`, the remainder after `X` is `Y`, after `Y` is `Z`etc. Lets denote is by `[X,Y,Z,...]`. I have previously arrived at `X`, and now I again arrive at `X`. I claim that since I did not find a remainder of `0` earlier, no solution is possible (because if we did find a remainder of `0`, we would have terminated and given answer immediately).
 
 Previously after `X`, my next remainder was `Y`. By proof in earlier section, we know that it is again going to be `Y`. Similarly, after `Y` we are bound to arrive at `Z`. **We will again arrive at same set of remainders we arrived at between visiting `X` first time, and re-visiting it again.** And `0` is not among them, else we'd have found an answer and terminated already! Hence, this forms an infinite cycle and no answer is possible for this case.
 
