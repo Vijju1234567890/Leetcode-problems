@@ -43,7 +43,7 @@ The above has a very beautiful implication. The smallest answer, if it exists, m
 
 ### 3. Implementation Ideas:
 
-Note that we do not need to print the final number which is divisible by $K$ (although that could be easily done in $O(N)$ by maintaining it in form of string). Hence, we declare a variable `curr` to keep track of my current remainder, and an array `visited` to keep track of whether a remainder is visited already or not. Initially entire array of `visited` is set to `false`.
+Note that we do not need to print the final number which is divisible by `K` (although that could be easily done in `O(N)` by maintaining it in form of string). Hence, we declare a variable `curr` to keep track of my current remainder, and an array `visited` to keep track of whether a remainder is visited already or not. Initially entire array of `visited` is set to `false`.
 
 We repeat the operation `K` times, i.e. check for first `K` smallest numbers. At each iteration, we check if remainder is `0` or visited already, both cases leading to termination of our algorithm as a definite conclusion is reached. Else, we simply mark the current remainder `curr` as visited and move on to next iteration.
 
